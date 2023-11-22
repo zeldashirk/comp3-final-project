@@ -29,9 +29,11 @@ public class App {
 
 	// the getSeperator() creates the appropriate back or forward slash based on the
 	// OS in which it is running -- OS X & Windows use same code :)
-	static String filePath = "mid" + sys.getSeparator() + "MaryHadALittleLamb.mid"; // path to the midi file -- you can
+	static String filePath = "mid" + sys.getSeparator() + "Hold-On-Till-May.mid"; // path to the midi file -- you can
 																					// change this to your file
 	// location/name
+
+	//static String filePath = "mid" + sys.getSeparator() + "Hold-On-Till-May.mid";
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -52,7 +54,6 @@ public class App {
 		// uncomment to debug your midi file
 		// this code MUST be commited when submitting unit tests or any code to github
 		// playMidiFileDebugTest(filePath);
-		System.out.println("hello");
 	}
 
 	// doing all the setup stuff
@@ -177,5 +178,3 @@ public class App {
 	}
 
 }
-
-//hello this is currently me making a single change to make sure this is going to the right repo
