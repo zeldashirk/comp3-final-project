@@ -52,6 +52,7 @@ public class App {
 		// uncomment to debug your midi file
 		// this code MUST be commited when submitting unit tests or any code to github
 		// playMidiFileDebugTest(filePath);
+		System.out.println("hello");
 	}
 
 	// doing all the setup stuff
@@ -176,3 +177,5 @@ public class App {
 	}
 
 }
+
+//hello this is currently me making a single change to make sure this is going to the right repo
